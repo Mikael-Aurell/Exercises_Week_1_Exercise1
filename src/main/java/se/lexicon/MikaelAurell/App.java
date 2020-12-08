@@ -10,7 +10,16 @@ public class App
     {
 
         //EXERCISE 1
-        System.out.println( "Hello World!" );
-        System.out.println( "Mikael Aurell" );
+        //System.out.println( "Hello World!" );
+        //System.out.println( "Mikael Aurell" );
+
+        //EXERCISE 2
+        int inputValue = 2000;
+        int leapYear = inputValue % 4;
+
+        if (leapYear != 0 ) {
+            System.out.println("This is not a leapYear");}
+        else {
+            System.out.println("This is a leapYear");}
     }
 }
